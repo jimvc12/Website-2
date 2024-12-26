@@ -1,0 +1,154 @@
+
+body {
+  background: linear-gradient(#ffffe6, #ffffff); /* Replace #33cc33 with your desired ending color */
+}
+.banner{
+    background:#33cc33;
+     height: 50px; 
+}
+.banner_content{
+    padding:16px;
+    max-width:300px;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    
+}
+.banner_text{
+    flex-grow: 1;
+    line-height:1.4;
+    font-family: "Georgia", serif;
+    margin-top: -20px;
+    font-weight:bold;
+}
+
+.image-container {
+  text-align: left;
+   
+
+}
+
+.image-container img {
+  width:200px;
+   border: 1.5px solid #33cc33;
+}
+.image-container video {
+            width: 500px; 
+            margin-left: 100px; 
+            border: 1.5px solid #33cc33;
+        }
+
+
+h1 {
+    color: #33cc33;
+    font-family: "Georgia", serif;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: -1px;
+    width: 100%;
+    padding: 10px;
+    z-index: 2;
+}
+
+.trust, .about {
+    font-family: "Helvetica", Arial, sans-serif;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.nav-container {
+    text-align: right;
+    z-index: 2;
+}
+
+.nav-container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-container nav a {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+.nav-container nav a:hover {
+    color: #33cc33;
+    text-decoration: underline;
+}
+
+.phone-number {
+    font-size: 20px;
+    text-align:right;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: bold;
+    z-index: 2;
+}
+.call-to-action {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; /* White text color */
+    background-color: #33cc33; /* Green background color */
+    border: 2px solid #ffffff; /* White border */
+    padding: 5px 10px; /* Padding for better visual appearance */
+    margin-bottom: 5px;
+    display: inline-block; /* Make it an inline-block element */
+    margin-right: 10px; /* Adjust the margin-right as needed */
+     border-radius: 15px; /* Add border-radius for rounded corners */
+}
+
+ 
+
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .phone-number {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav-container {
+        text-align: center;
+    }
+
+    .nav-container nav ul {
+        text-align: center;
+    }
+
+    .nav-container nav li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .trust, .about {
+        max-height: none;
+        margin-top: 10px;
+    }
+
+     footer {
+    text-align: left;
+  }
+}
+
+footer {
+  font-family: "Helvetica", Arial, sans-serif;
+  background-color: #33cc33;
+  padding: 10px;
+  z-index: 2;
+  bottom: 0;
+  text-align: left;
+  width: 100%;
+}

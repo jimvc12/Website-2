@@ -1,0 +1,17 @@
+-point size is the measurement of the font(height)
+-font is a set of characters designed in a specific way 
+-24-bit color represents color in 3 8 bits. one for each intensity of additive and         subtractive 
+-Active matrix display uses one or more transistors for each pixel
+-additive colors are red, blue, and green and are typically used for video display 
+-bitmap is a digital representation of an image through set of numbers 
+-cathode ray tube(CRT) enclosed vacuum tube that has an electron gun at the rear that generates a stream of electrons towards the tube's front surface 
+-chromatic depth is the distinct colors or shades of gray that can be displayed 
+
+MODULE 8
+
+-multitasking OS supports multiple users and processes 
+-multithreaded process contains subunits that are executed simultaneously 
+-hypervisor is an OS that splits one physical computer into many virtual machines
+-page fault occurs when a program tries to access a memory page that is not currently held in memory
+-absolute addressing: program memory is based on physical memory locations
+-indirect addressing: the CPU calculates the physical memory location that corresponds to program memory 
